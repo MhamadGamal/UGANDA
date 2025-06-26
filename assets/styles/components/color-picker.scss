@@ -1,0 +1,87 @@
+@import "../variables.scss";
+.PickColorParent {
+  position: relative;
+  width: 70%;
+  color: $gray-color2;
+  height: 39px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  .color-input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: $light-color5 !important;
+    border: 1px solid $light-color9;
+    padding-left: 50px;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+    &:active,
+    &:focus {
+      border: 1px solid $primary-color1 !important;
+    }
+  }
+  .circle {
+    position: relative;
+    left: 12px;
+    width: 28px;
+    height: 28px;
+    border: 1px solid $gray-color2;
+    border-radius: 50%;
+    padding: 2px;
+    .inside {
+      position: absolute;
+      width: 86%;
+      height: 86%;
+      border-radius: 50%;
+      background: $gray-color2;
+    }
+  }
+  .text {
+    // position: absolute;
+    margin-left: 10px;
+    margin-top: -5px;
+    color: $neutral-color1;
+  }
+}
+
+.color-picker {
+  border: none !important;
+  box-shadow: 0px 2px 21px rgba(39, 38, 38, 0.08) !important;
+  border-radius: 10px;
+  width: 120% !important;
+  overflow: hidden;
+  .arrow.arrow-bottom {
+    display: none !important;
+  }
+
+  .button-area {
+    padding: 8px 8px !important;
+    button {
+      margin: auto;
+      margin-left: 0 !important;
+      display: inherit;
+      outline: none;
+      border: none;
+      padding: 8px 25px;
+      width: 100%;
+      border-radius: 6px;
+      font-size: 15px;
+      color: $neutral-color1;
+      background-color: $light-color5 !important;
+    }
+  }
+
+  .value-text .box input,
+  .hex-text .box input {
+    border-radius: 5px !important;
+    outline: none !important;
+    &:active,
+    &:focus {
+      border: 1px solid $primary-color1 !important;
+    }
+  }
+}

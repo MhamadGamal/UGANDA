@@ -1,0 +1,41 @@
+@import "../variables.scss";
+.add-edit-page {
+  .page-title {
+    h4 {
+      font-size: 30px;
+      font-weight: 600;
+      color: $neutral-color6;
+      font-family: "Lato", sans-serif;
+    }
+  }
+  .form-body {
+    padding: 0;
+    .form-item {
+      margin: 15px 0;
+      &:not(:last-child) {
+        border-bottom: 1px solid $light-color11;
+      }
+      mat-label {
+        position: relative;
+        top: 5px;
+      }
+      .mat-mdc-select {
+        margin-top: 3px;
+        max-width: none;
+      }
+    }
+  }
+}
+
+.cdk-overlay-pane.mat-mdc-dialog-panel {
+  max-width: 90% !important;
+  min-width: 30% !important;
+  .mat-mdc-dialog-inner-container {
+    max-width: 100% !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .cdk-overlay-pane.mat-mdc-dialog-panel {
+    max-width: 100% !important;
+  }
+}

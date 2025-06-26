@@ -1,0 +1,55 @@
+@import "../variables.scss";
+
+.mat-mdc-unelevated-button,
+.mat-mdc-button-base:not(.mdc-icon-button),
+.mdc-button {
+  height: 40px;
+  font-size: 16px;
+  border-radius: 8px;
+  min-width: 135px;
+  &.mat-accent:not(.mat-mdc-outlined-button) {
+    background-color: $red-color1 !important;
+  }
+}
+
+.mat-primary.mat-mdc-button-base {
+  background-color: $primary-color1 !important;
+}
+
+.mat-mdc-outlined-button {
+  color: $neutral-color4 !important;
+  border-color: $neutral-color4 !important;
+  border-radius: 8px !important;
+  -webkit-border-radius: 8px !important;
+  -moz-border-radius: 8px !important;
+  -ms-border-radius: 8px !important;
+  -o-border-radius: 8px !important;
+  height: 40px !important;
+
+  &.primary {
+    color: $primary-color1 !important;
+    border-color: $primary-color1 !important;
+  }
+}
+
+.mat-mdc-outlined-button:not(:disabled) {
+  border-color: $gray-color5 !important;
+}
+
+.edit-btn-with-border {
+  .mat-icon {
+    margin: 0 !important;
+  }
+}
+sign-in {
+  .mat-mdc-unelevated-button,
+  .mat-mdc-button-base:not(.mdc-icon-button),
+  .mdc-button {
+    height: 50px;
+  }
+  .mat-mdc-unelevated-button .mdc-button__label {
+    color: $light-color1;
+    font-size: 18px;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,12 @@
+.expandable-table {
+  * {
+    font-size: 13px;
+  }
+  .p-button.p-button-icon-only.p-button-rounded {
+    height: 1.357rem;
+    width: 1.357rem;
+    &:focus {
+      box-shadow: none;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+@import "../variables.scss";
+
+.mat-mdc-menu-content {
+  background-color: $light-color1;
+  width: 246px;
+  border-radius: 6px;
+  padding: 1px 0 !important;
+  .mat-mdc-menu-item-text {
+    color: $gray-color2;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+  }
+  .active {
+    .mat-mdc-menu-item-text {
+      color: $primary-color1 !important;
+    }
+    .mat-mdc-menu-item-text::after {
+      content: "✓";
+      font-size: large;
+      position: absolute;
+      right: 6px;
+    }
+  }
+}
+.mat-mdc-menu-item:not([disabled]),
+.mat-mdc-menu-item:not([disabled]):hover {
+  margin: 4px !important;
+  width: initial !important;
+}
+.mat-mdc-menu-item:not([disabled]):hover {
+  background-color: $light-color4 !important;
+
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.menu-item {
+  .cdk-overlay-connected-position-bounding-box {
+    top: 78px !important;
+  }
+}

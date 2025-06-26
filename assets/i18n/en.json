@@ -1,0 +1,23 @@
+{
+  "LOGIN": {
+    "TITLE": "Uganda National ID Application",
+    "SUBTITLE": "Pre-Registration Portal",
+    "EMAIL_PHONE_LABEL": "Email/Phone *",
+    "EMAIL_PHONE_PLACEHOLDER": "Enter your email address or phone number",
+    "CHECKBOX_LABEL": "I am not a robot",
+    "SEND_OTP_BUTTON": "Send OTP",
+    "OTP_LABEL": "OTP *",
+    "OTP_PLACEHOLDER": "Enter OTP",
+    "VALID_FOR": "Valid for:",
+    "VERIFY_BUTTON": "Verify"
+  },
+  "STEPPER": {
+    "DOCUMENTS": {
+      "NATIONAL_ID_NUMBER": "National ID Number",
+      "LC_LETTER": "LC Letter",
+      "DRAG_DROP": "Drag your file here, or",
+      "BROWSE": "Browse",
+      "SUPPORTS": "Supports: PNG, JPEG, SVG, AND JPG"
+    }
+  }
+}

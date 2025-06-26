@@ -1,0 +1,126 @@
+/** Primary Colors **/
+$primary-color1: #bf212f;
+
+/** Secondary Colors **/
+$secondary-color1: #fdcc51;
+
+/** Light Colors **/
+$light-color1: #fff;
+$light-color2: #e9f5fe;
+$light-color3: #fff4ff;
+$light-color4: #f5f9ff;
+$light-color5: #fafcff;
+$light-color6: #f2f4f7;
+$light-color7: #f9fafb;
+$light-color8: #eef5fa;
+$light-color9: #d8d8d8;
+$light-color10: #eef4ff;
+$light-color11: #eaecf0;
+$light-color12: #e9f5fe;
+$light-color13: #eaebfd;
+$light-color14: #f6f6f6;
+$light-color15: #d8d9f6;
+$light-color16: #eaebfd;
+$light-color17: #fafafa;
+
+/** Neutral Colors **/
+$neutral-color1: #242424;
+$neutral-color2: #354052;
+$neutral-color3: #475467;
+$neutral-color4: #667085;
+$neutral-color5: #344054;
+$neutral-color6: #101828;
+$neutral-color7: #d8d8d8;
+$neutral-color8: #6f768d;
+$neutral-color9: #1c222b;
+$neutral-color10: #3f3e3f4d;
+$neutral-color11: #99999942;
+$neutral-color12: #99999945;
+$neutral-color13: #718ebf;
+$neutral-color14: #333b69;
+
+$black-color1: #000;
+$black-color2: #0000;
+$black-color3: #00000085;
+$black-color4: #1d2939;
+$black-color5: #111729;
+$black-color6: #464255;
+$black-color7: 1018280f;
+
+/** Gray Colors **/
+$gray-color1: #f1f1f1ab;
+$gray-color2: #858d9b;
+$gray-color3: #afb1b6;
+$gray-color4: #98a2b3;
+$gray-color5: #d0d5dd;
+$gray-color6: #e5e3e2;
+$gray-color7: #d0d5dd21;
+$gray-color8: #d0d5dd69;
+$gray-color9: #96a5b8;
+$gray-color10: #9e9e9e;
+$gray-color11: #999;
+$gray-color12: #d5d4d4;
+
+/** Mixed Colors **/
+$green: #2ecc71;
+$green-color1: #50cc98;
+$green-color2: #12b76a;
+$green-color3: #28c76f;
+$green-color4: #17a2b8;
+$green-color5: #ecfdf3;
+$green-color6: #027a48;
+$red: #d0021b;
+$red-color1: #f12b2c;
+$red-color2: #f04438;
+$red-color3: #ff0000;
+$red-color4: #ffe0eb;
+$red-color5: #fef3f2;
+$red-color6: #b42318;
+$shadow-color1: #1018281a;
+$yellow-color1: #f4b30c;
+
+.text-neutral1 {
+  color: $neutral-color1;
+}
+
+.text-neutral2 {
+  color: $neutral-color2;
+}
+
+.text-neutral3 {
+  color: $gray-color2;
+}
+
+.text-neutral4 {
+  color: $gray-color3;
+}
+
+.text-neutral5 {
+  color: $light-color9;
+}
+.text-neutral8 {
+  color: $neutral-color4;
+}
+
+.primary {
+  color: $primary-color1;
+}
+.bg-primary {
+  background-color: $primary-color1;
+}
+.secondary {
+  color: $secondary-color1;
+}
+.bg-secondary {
+  background-color: $secondary-color1;
+}
+
+.green {
+  color: $green-color1;
+}
+.red {
+  color: $red-color1;
+}
+.bg-body {
+  background-color: $light-color7;
+}

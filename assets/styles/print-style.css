@@ -1,0 +1,180 @@
+body {
+  -webkit-print-color-adjust: exact;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+/* Hide unnecessary elements for printing */
+
+/* Adjust layout for printing */
+.container {
+  max-width: 100% !important;
+}
+
+.row {
+  display: block !important;
+}
+
+.col {
+  width: 100% !important;
+}
+
+.col-4,
+.col-8 {
+  width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+/* Customize list item styles for printing */
+.list-group-item {
+  border: 1px solid #ddd;
+  margin: 0;
+  padding: 8px;
+}
+
+.print-container {
+  background-color: #FBFCFF;
+  margin: 0;
+}
+
+.print-container * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.print-container .header {
+  background: #9bc2e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  /* position: fixed;
+  top: 0; */
+  margin: 0;
+}
+
+.print-container .header-details {
+  display: flex;
+  gap: 10px;
+}
+
+.print-container .header-details .titles, .header-details .data {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.print-container .header-details .data {
+  font-weight: 700;
+}
+
+.print-container .data-section {
+  padding: 0 20px 20px;
+}
+
+.print-container .data-section section {
+  box-shadow: 1px 1px 6px rgba(163, 163, 163, 0.904);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.print-container .data-section > .title {
+  text-align: center;
+  margin: 15px 0;
+}
+
+.print-container .data-section .section-title {
+  padding: 10px 20px;
+  background-color: #EDF3FF;
+  color: #568CAA;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.print-container .data-section .section-details {
+  background-color: White;
+  padding: 10px 20px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+
+.print-container .data-section .section-details.flex-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.print-container  .data-section .section-details .item {
+  display: flex;
+  gap: 5px;
+}
+
+.print-container  .data-section .section-details .item .title {
+  color: #568CAA;
+  font-weight: bolder;
+}
+.print-container  .data-section .section-details .item .data {
+  color: #808080;
+}
+
+.print-container  .data-section .section-outer-title {
+  margin: 0 20px
+}
+
+.print-container  .data-section .products td:first-child,
+.print-container  .data-section .products th:first-child {
+  padding-inline-start: 20px !important;
+}
+.print-container  .data-section .products td:last-child,
+.print-container  .data-section .products th:last-child {
+  padding-inline-start: 20px !important;
+}
+
+.print-container  .data-section .products table {
+  width: 100%;
+}
+
+.print-container  .data-section .products table tr {
+  border-bottom: 1px solid #cecece
+}
+
+.print-container  .data-section .products table tr > * {
+  padding: 15px 0;
+}
+
+.print-container  .data-section .products table tr td {
+  color: #B6B1B6;
+}
+.print-container  .data-section .products table thead tr {
+  background-color: #FFFFFD;
+}
+.print-container  .data-section .products table thead th {
+  text-align: start;
+}
+.print-container  .data-section .products table tbody tr:nth-child(2n+1) {
+  background-color: #FBFCFF;
+}
+.print-container  .data-section .products table tbody tr:nth-child(2n) {
+  background-color: #FFFFFD;
+}
+
+.print-container  .data-section .products table tr td:first-child {
+  color: black;
+  font-weight: bold;
+}
+
+
+.print-container  .data-section section .content {
+  padding: 10px 20px;
+  color: #B6B1B6;
+  background: white;
+}

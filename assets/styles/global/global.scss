@@ -1,0 +1,40 @@
+@import "../variables.scss";
+
+.current-currency-container {
+  background-color: #f5a6231a;
+  padding: 5px 15px;
+  border-radius: 8px;
+  border: 1px solid $secondary-color1;
+}
+.cancel-clear-container {
+  border-bottom: 1px solid $light-color10;
+}
+.cancel-clear-cell {
+  margin: 0;
+  padding: 15px 0;
+  display: flex;
+  label {
+    margin: 0 !important;
+    width: 30%;
+    color: $gray-color3;
+    font-size: 16px;
+    font-weight: normal !important;
+  }
+}
+
+.hr-divider {
+  height: 1px;
+  width: 100%;
+  margin: 30px 0;
+  background-color: $light-color10;
+}
+.dropdown-menu {
+  z-index: 999999 !important;
+}
+.searchbox-container .ng-select .ng-arrow-wrapper .ng-arrow::after {
+  z-index: 9 !important;
+}
+
+body.swal2-toast-shown .swal2-container {
+  width: 450px !important;
+}
